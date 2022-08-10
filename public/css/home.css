@@ -86,7 +86,7 @@ header nav img#logo{
 }
 
 header nav div input{
-    width: 100%;
+    width: 80%;
 } 
 
 header nav div.busqueda{
@@ -95,10 +95,14 @@ header nav div.busqueda{
     padding-left: 10px;
 }
 
-header nav div button {
-    margin-left: -20px;
+header nav div.busqueda form{
     position: absolute;
-    right: -3px;
+    width: 100%;
+}
+
+header nav div.busqueda form button.busqueda{
+    position: relative;
+    right: 21px;
 }
 
 header nav#menu-desplegable {
